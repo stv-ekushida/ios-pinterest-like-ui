@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  ios-pinterest-like-ui
+//  ios-clean-architecture
 //
-//  Created by Kushida　Eiji on 2016/12/02.
-//  Copyright © 2016年 Kushida　Eiji. All rights reserved.
+//  Created by Eiji Kushida on 2016/12/02.
+//  Copyright © 2016年 Eiji Kushida. All rights reserved.
 //
 
 import UIKit

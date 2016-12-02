@@ -1,425 +1,1387 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		BC9EF75F1DF19B500066DF54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9EF75E1DF19B500066DF54 /* AppDelegate.swift */; };
-		BC9EF7611DF19B500066DF54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9EF7601DF19B500066DF54 /* ViewController.swift */; };
-		BC9EF7641DF19B500066DF54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9EF7621DF19B500066DF54 /* Main.storyboard */; };
-		BC9EF7661DF19B500066DF54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC9EF7651DF19B500066DF54 /* Assets.xcassets */; };
-		BC9EF7691DF19B500066DF54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9EF7671DF19B500066DF54 /* LaunchScreen.storyboard */; };
-		BC9EF7741DF19B500066DF54 /* ios_pinterest_like_uiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9EF7731DF19B500066DF54 /* ios_pinterest_like_uiTests.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		BC9EF7701DF19B500066DF54 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC9EF7531DF19B500066DF54 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BC9EF75A1DF19B500066DF54;
-			remoteInfo = "ios-pinterest-like-ui";
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		BC9EF75B1DF19B500066DF54 /* ios-pinterest-like-ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-pinterest-like-ui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC9EF75E1DF19B500066DF54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC9EF7601DF19B500066DF54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BC9EF7631DF19B500066DF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BC9EF7651DF19B500066DF54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BC9EF7681DF19B500066DF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BC9EF76A1DF19B500066DF54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC9EF76F1DF19B500066DF54 /* ios-pinterest-like-uiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-pinterest-like-uiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC9EF7731DF19B500066DF54 /* ios_pinterest_like_uiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_pinterest_like_uiTests.swift; sourceTree = "<group>"; };
-		BC9EF7751DF19B500066DF54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		BC9EF7581DF19B500066DF54 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC9EF76C1DF19B500066DF54 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		BC9EF7521DF19B500066DF54 = {
-			isa = PBXGroup;
-			children = (
-				BC9EF75D1DF19B500066DF54 /* ios-pinterest-like-ui */,
-				BC9EF7721DF19B500066DF54 /* ios-pinterest-like-uiTests */,
-				BC9EF75C1DF19B500066DF54 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		BC9EF75C1DF19B500066DF54 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BC9EF75B1DF19B500066DF54 /* ios-pinterest-like-ui.app */,
-				BC9EF76F1DF19B500066DF54 /* ios-pinterest-like-uiTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BC9EF75D1DF19B500066DF54 /* ios-pinterest-like-ui */ = {
-			isa = PBXGroup;
-			children = (
-				BC9EF75E1DF19B500066DF54 /* AppDelegate.swift */,
-				BC9EF7601DF19B500066DF54 /* ViewController.swift */,
-				BC9EF7621DF19B500066DF54 /* Main.storyboard */,
-				BC9EF7651DF19B500066DF54 /* Assets.xcassets */,
-				BC9EF7671DF19B500066DF54 /* LaunchScreen.storyboard */,
-				BC9EF76A1DF19B500066DF54 /* Info.plist */,
-			);
-			path = "ios-pinterest-like-ui";
-			sourceTree = "<group>";
-		};
-		BC9EF7721DF19B500066DF54 /* ios-pinterest-like-uiTests */ = {
-			isa = PBXGroup;
-			children = (
-				BC9EF7731DF19B500066DF54 /* ios_pinterest_like_uiTests.swift */,
-				BC9EF7751DF19B500066DF54 /* Info.plist */,
-			);
-			path = "ios-pinterest-like-uiTests";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		BC9EF75A1DF19B500066DF54 /* ios-pinterest-like-ui */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BC9EF7781DF19B500066DF54 /* Build configuration list for PBXNativeTarget "ios-pinterest-like-ui" */;
-			buildPhases = (
-				BC9EF7571DF19B500066DF54 /* Sources */,
-				BC9EF7581DF19B500066DF54 /* Frameworks */,
-				BC9EF7591DF19B500066DF54 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ios-pinterest-like-ui";
-			productName = "ios-pinterest-like-ui";
-			productReference = BC9EF75B1DF19B500066DF54 /* ios-pinterest-like-ui.app */;
-			productType = "com.apple.product-type.application";
-		};
-		BC9EF76E1DF19B500066DF54 /* ios-pinterest-like-uiTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BC9EF77B1DF19B500066DF54 /* Build configuration list for PBXNativeTarget "ios-pinterest-like-uiTests" */;
-			buildPhases = (
-				BC9EF76B1DF19B500066DF54 /* Sources */,
-				BC9EF76C1DF19B500066DF54 /* Frameworks */,
-				BC9EF76D1DF19B500066DF54 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BC9EF7711DF19B500066DF54 /* PBXTargetDependency */,
-			);
-			name = "ios-pinterest-like-uiTests";
-			productName = "ios-pinterest-like-uiTests";
-			productReference = BC9EF76F1DF19B500066DF54 /* ios-pinterest-like-uiTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		BC9EF7531DF19B500066DF54 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = "Kushida　Eiji";
-				TargetAttributes = {
-					BC9EF75A1DF19B500066DF54 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = UE5DCQPTRB;
-						ProvisioningStyle = Automatic;
-					};
-					BC9EF76E1DF19B500066DF54 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = UE5DCQPTRB;
-						ProvisioningStyle = Automatic;
-						TestTargetID = BC9EF75A1DF19B500066DF54;
-					};
-				};
-			};
-			buildConfigurationList = BC9EF7561DF19B500066DF54 /* Build configuration list for PBXProject "ios-pinterest-like-ui" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = BC9EF7521DF19B500066DF54;
-			productRefGroup = BC9EF75C1DF19B500066DF54 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				BC9EF75A1DF19B500066DF54 /* ios-pinterest-like-ui */,
-				BC9EF76E1DF19B500066DF54 /* ios-pinterest-like-uiTests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		BC9EF7591DF19B500066DF54 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC9EF7691DF19B500066DF54 /* LaunchScreen.storyboard in Resources */,
-				BC9EF7661DF19B500066DF54 /* Assets.xcassets in Resources */,
-				BC9EF7641DF19B500066DF54 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC9EF76D1DF19B500066DF54 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		BC9EF7571DF19B500066DF54 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC9EF7611DF19B500066DF54 /* ViewController.swift in Sources */,
-				BC9EF75F1DF19B500066DF54 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BC9EF76B1DF19B500066DF54 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC9EF7741DF19B500066DF54 /* ios_pinterest_like_uiTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BC9EF7711DF19B500066DF54 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BC9EF75A1DF19B500066DF54 /* ios-pinterest-like-ui */;
-			targetProxy = BC9EF7701DF19B500066DF54 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		BC9EF7621DF19B500066DF54 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC9EF7631DF19B500066DF54 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BC9EF7671DF19B500066DF54 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BC9EF7681DF19B500066DF54 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		BC9EF7761DF19B500066DF54 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		BC9EF7771DF19B500066DF54 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		BC9EF7791DF19B500066DF54 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UE5DCQPTRB;
-				INFOPLIST_FILE = "ios-pinterest-like-ui/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.smartdt.ios-pinterest-like-ui";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		BC9EF77A1DF19B500066DF54 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UE5DCQPTRB;
-				INFOPLIST_FILE = "ios-pinterest-like-ui/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.smartdt.ios-pinterest-like-ui";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		BC9EF77C1DF19B500066DF54 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = UE5DCQPTRB;
-				INFOPLIST_FILE = "ios-pinterest-like-uiTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.smartdt.ios-pinterest-like-uiTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-pinterest-like-ui.app/ios-pinterest-like-ui";
-			};
-			name = Debug;
-		};
-		BC9EF77D1DF19B500066DF54 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = UE5DCQPTRB;
-				INFOPLIST_FILE = "ios-pinterest-like-uiTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.smartdt.ios-pinterest-like-uiTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-pinterest-like-ui.app/ios-pinterest-like-ui";
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		BC9EF7561DF19B500066DF54 /* Build configuration list for PBXProject "ios-pinterest-like-ui" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BC9EF7761DF19B500066DF54 /* Debug */,
-				BC9EF7771DF19B500066DF54 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BC9EF7781DF19B500066DF54 /* Build configuration list for PBXNativeTarget "ios-pinterest-like-ui" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BC9EF7791DF19B500066DF54 /* Debug */,
-				BC9EF77A1DF19B500066DF54 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		BC9EF77B1DF19B500066DF54 /* Build configuration list for PBXNativeTarget "ios-pinterest-like-uiTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BC9EF77C1DF19B500066DF54 /* Debug */,
-				BC9EF77D1DF19B500066DF54 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = BC9EF7531DF19B500066DF54 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>BC2F0A611DF19C9A00603ACD</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>PinterestLayout.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC2F0A621DF19C9A00603ACD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC2F0A611DF19C9A00603ACD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BC2F0A631DF19CE500603ACD</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>UIView+Style.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC2F0A641DF19CE500603ACD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC2F0A631DF19CE500603ACD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BC9EF7521DF19B500066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF75C1DF19B500066DF54</string>
+				<string>BC9EF75D1DF19B500066DF54</string>
+				<string>BC9EF7721DF19B500066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7531DF19B500066DF54</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0800</string>
+				<key>LastUpgradeCheck</key>
+				<string>0800</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Kushida&#12288;Eiji</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>BC9EF75A1DF19B500066DF54</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>8.0</string>
+						<key>DevelopmentTeam</key>
+						<string>UE5DCQPTRB</string>
+						<key>ProvisioningStyle</key>
+						<string>Automatic</string>
+					</dict>
+					<key>BC9EF76E1DF19B500066DF54</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>8.0</string>
+						<key>DevelopmentTeam</key>
+						<string>UE5DCQPTRB</string>
+						<key>ProvisioningStyle</key>
+						<string>Automatic</string>
+						<key>TestTargetID</key>
+						<string>BC9EF75A1DF19B500066DF54</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>BC9EF7561DF19B500066DF54</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>BC9EF7521DF19B500066DF54</string>
+			<key>productRefGroup</key>
+			<string>BC9EF75C1DF19B500066DF54</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>BC9EF75A1DF19B500066DF54</string>
+				<string>BC9EF76E1DF19B500066DF54</string>
+			</array>
+		</dict>
+		<key>BC9EF7561DF19B500066DF54</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>BC9EF7761DF19B500066DF54</string>
+				<string>BC9EF7771DF19B500066DF54</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>BC9EF7571DF19B500066DF54</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>BC2F0A621DF19C9A00603ACD</string>
+				<string>BC9EF7B41DF19BD30066DF54</string>
+				<string>BC2F0A641DF19CE500603ACD</string>
+				<string>BC9EF7AE1DF19BD30066DF54</string>
+				<string>BC9EF7B61DF19BD30066DF54</string>
+				<string>BC9EF7BD1DF19BD30066DF54</string>
+				<string>BC9EF7B31DF19BD30066DF54</string>
+				<string>BC9EF7AD1DF19BD30066DF54</string>
+				<string>BC9EF7BE1DF19BD30066DF54</string>
+				<string>BC9EF7B01DF19BD30066DF54</string>
+				<string>BC9EF7BB1DF19BD30066DF54</string>
+				<string>BC9EF7B81DF19BD30066DF54</string>
+				<string>BC9EF7B71DF19BD30066DF54</string>
+				<string>BC9EF7AF1DF19BD30066DF54</string>
+				<string>BC9EF7B91DF19BD30066DF54</string>
+				<string>BC9EF7B51DF19BD30066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>BC9EF7581DF19B500066DF54</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>BC9EF7591DF19B500066DF54</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>BC9EF7B11DF19BD30066DF54</string>
+				<string>BC9EF7BC1DF19BD30066DF54</string>
+				<string>BC9EF7BA1DF19BD30066DF54</string>
+				<string>BC9EF7BF1DF19BD30066DF54</string>
+				<string>BC9EF7B21DF19BD30066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>BC9EF75A1DF19B500066DF54</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>BC9EF7781DF19B500066DF54</string>
+			<key>buildPhases</key>
+			<array>
+				<string>BC9EF7571DF19B500066DF54</string>
+				<string>BC9EF7581DF19B500066DF54</string>
+				<string>BC9EF7591DF19B500066DF54</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>ios-pinterest-like-ui</string>
+			<key>productName</key>
+			<string>ios-pinterest-like-ui</string>
+			<key>productReference</key>
+			<string>BC9EF75B1DF19B500066DF54</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>BC9EF75B1DF19B500066DF54</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>ios-pinterest-like-ui.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>BC9EF75C1DF19B500066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF75B1DF19B500066DF54</string>
+				<string>BC9EF76F1DF19B500066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF75D1DF19B500066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF7861DF19BD30066DF54</string>
+				<string>BC9EF7921DF19BD30066DF54</string>
+				<string>BC9EF7961DF19BD30066DF54</string>
+				<string>BC9EF79A1DF19BD30066DF54</string>
+				<string>BC9EF76A1DF19B500066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>ios-pinterest-like-ui</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF76A1DF19B500066DF54</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF76B1DF19B500066DF54</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>BC9EF7741DF19B500066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>BC9EF76C1DF19B500066DF54</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>BC9EF76D1DF19B500066DF54</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>BC9EF76E1DF19B500066DF54</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>BC9EF77B1DF19B500066DF54</string>
+			<key>buildPhases</key>
+			<array>
+				<string>BC9EF76B1DF19B500066DF54</string>
+				<string>BC9EF76C1DF19B500066DF54</string>
+				<string>BC9EF76D1DF19B500066DF54</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>BC9EF7711DF19B500066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>ios-pinterest-like-uiTests</string>
+			<key>productName</key>
+			<string>ios-pinterest-like-uiTests</string>
+			<key>productReference</key>
+			<string>BC9EF76F1DF19B500066DF54</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>BC9EF76F1DF19B500066DF54</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>ios-pinterest-like-uiTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>BC9EF7701DF19B500066DF54</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>BC9EF7531DF19B500066DF54</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>BC9EF75A1DF19B500066DF54</string>
+			<key>remoteInfo</key>
+			<string>ios-pinterest-like-ui</string>
+		</dict>
+		<key>BC9EF7711DF19B500066DF54</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>BC9EF75A1DF19B500066DF54</string>
+			<key>targetProxy</key>
+			<string>BC9EF7701DF19B500066DF54</string>
+		</dict>
+		<key>BC9EF7721DF19B500066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF7751DF19B500066DF54</string>
+				<string>BC9EF7731DF19B500066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>ios-pinterest-like-uiTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7731DF19B500066DF54</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>ios_pinterest_like_uiTests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7741DF19B500066DF54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC9EF7731DF19B500066DF54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BC9EF7751DF19B500066DF54</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7761DF19B500066DF54</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INFINITE_RECURSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SWIFT_ACTIVE_COMPILATION_CONDITIONS</key>
+				<string>DEBUG</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>BC9EF7771DF19B500066DF54</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_DOCUMENTATION_COMMENTS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INFINITE_RECURSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_SUSPICIOUS_MOVES</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Owholemodule</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>BC9EF7781DF19B500066DF54</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>BC9EF7791DF19B500066DF54</string>
+				<string>BC9EF77A1DF19B500066DF54</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>BC9EF7791DF19B500066DF54</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>UE5DCQPTRB</string>
+				<key>INFOPLIST_FILE</key>
+				<string>ios-pinterest-like-ui/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>jp.st-ventures.ios-pinterest-like-ui</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>BC9EF77A1DF19B500066DF54</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>UE5DCQPTRB</string>
+				<key>INFOPLIST_FILE</key>
+				<string>ios-pinterest-like-ui/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>jp.st-ventures.ios-pinterest-like-ui</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>BC9EF77B1DF19B500066DF54</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>BC9EF77C1DF19B500066DF54</string>
+				<string>BC9EF77D1DF19B500066DF54</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>BC9EF77C1DF19B500066DF54</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
+				<string>YES</string>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>UE5DCQPTRB</string>
+				<key>INFOPLIST_FILE</key>
+				<string>ios-pinterest-like-uiTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>jp.smartdt.ios-pinterest-like-uiTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/ios-pinterest-like-ui.app/ios-pinterest-like-ui</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>BC9EF77D1DF19B500066DF54</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES</key>
+				<string>YES</string>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>DEVELOPMENT_TEAM</key>
+				<string>UE5DCQPTRB</string>
+				<key>INFOPLIST_FILE</key>
+				<string>ios-pinterest-like-uiTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>jp.smartdt.ios-pinterest-like-uiTests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SWIFT_VERSION</key>
+				<string>3.0</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/ios-pinterest-like-ui.app/ios-pinterest-like-ui</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>BC9EF7861DF19BD30066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF7871DF19BD30066DF54</string>
+				<string>BC9EF7891DF19BD30066DF54</string>
+				<string>BC9EF78B1DF19BD30066DF54</string>
+				<string>BC9EF78D1DF19BD30066DF54</string>
+				<string>BC9EF78F1DF19BD30066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Data</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7871DF19BD30066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF7881DF19BD30066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>DataSource</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7881DF19BD30066DF54</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>PhotoDataSource.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7891DF19BD30066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF78A1DF19BD30066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Entity</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF78A1DF19BD30066DF54</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>Photo.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF78B1DF19BD30066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF78C1DF19BD30066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Event</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF78C1DF19BD30066DF54</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>PhotosLoadEvent.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF78D1DF19BD30066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF78E1DF19BD30066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Repository</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF78E1DF19BD30066DF54</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>PhotoRepository.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF78F1DF19BD30066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF7901DF19BD30066DF54</string>
+				<string>BC9EF7911DF19BD30066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Resource</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7901DF19BD30066DF54</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7911DF19BD30066DF54</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>photos.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7921DF19BD30066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF7931DF19BD30066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Domain</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7931DF19BD30066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF7941DF19BD30066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Usecase</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7941DF19BD30066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF7951DF19BD30066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>List</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7951DF19BD30066DF54</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>PhotoListUsecase.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7961DF19BD30066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF7981DF19BD30066DF54</string>
+				<string>BC9EF7971DF19BD30066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Other</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7971DF19BD30066DF54</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>AppDelegate.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7981DF19BD30066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF7991DF19BD30066DF54</string>
+				<string>BC2F0A631DF19CE500603ACD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Extensions</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7991DF19BD30066DF54</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>UIStoryboard+ViewController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF79A1DF19BD30066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF79B1DF19BD30066DF54</string>
+				<string>BC9EF79E1DF19BD30066DF54</string>
+				<string>BC9EF7A21DF19BD30066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>UI</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF79B1DF19BD30066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF79C1DF19BD30066DF54</string>
+				<string>BC9EF79D1DF19BD30066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Presenter</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF79C1DF19BD30066DF54</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>PhotoDetailPresenter.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF79D1DF19BD30066DF54</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>PhotoListPresenter.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF79E1DF19BD30066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF79F1DF19BD30066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>View</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF79F1DF19BD30066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF7A01DF19BD30066DF54</string>
+				<string>BC9EF7A11DF19BD30066DF54</string>
+				<string>BC2F0A611DF19C9A00603ACD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>List</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7A01DF19BD30066DF54</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>PhotoListCell.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7A11DF19BD30066DF54</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>PhotoListCollectionView.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7A21DF19BD30066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF7A31DF19BD30066DF54</string>
+				<string>BC9EF7A61DF19BD30066DF54</string>
+				<string>BC9EF7A91DF19BD30066DF54</string>
+				<string>BC9EF7AB1DF19BD30066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>ViewController</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7A31DF19BD30066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF7A41DF19BD30066DF54</string>
+				<string>BC9EF7A51DF19BD30066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Detail</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7A41DF19BD30066DF54</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>path</key>
+			<string>PhotoDetail.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7A51DF19BD30066DF54</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>PhotoDetailViewController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7A61DF19BD30066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF7A71DF19BD30066DF54</string>
+				<string>BC9EF7A81DF19BD30066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>List</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7A71DF19BD30066DF54</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>path</key>
+			<string>PhotoList.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7A81DF19BD30066DF54</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>PhotoListViewController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7A91DF19BD30066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF7AA1DF19BD30066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Other</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7AA1DF19BD30066DF54</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>ViewControllerType.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7AB1DF19BD30066DF54</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC9EF7AC1DF19BD30066DF54</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Startup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7AC1DF19BD30066DF54</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>path</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC9EF7AD1DF19BD30066DF54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC9EF7881DF19BD30066DF54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BC9EF7AE1DF19BD30066DF54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC9EF78A1DF19BD30066DF54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BC9EF7AF1DF19BD30066DF54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC9EF78C1DF19BD30066DF54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BC9EF7B01DF19BD30066DF54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC9EF78E1DF19BD30066DF54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BC9EF7B11DF19BD30066DF54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC9EF7901DF19BD30066DF54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BC9EF7B21DF19BD30066DF54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC9EF7911DF19BD30066DF54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BC9EF7B31DF19BD30066DF54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC9EF7951DF19BD30066DF54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BC9EF7B41DF19BD30066DF54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC9EF7971DF19BD30066DF54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BC9EF7B51DF19BD30066DF54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC9EF7991DF19BD30066DF54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BC9EF7B61DF19BD30066DF54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC9EF79C1DF19BD30066DF54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BC9EF7B71DF19BD30066DF54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC9EF79D1DF19BD30066DF54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BC9EF7B81DF19BD30066DF54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC9EF7A01DF19BD30066DF54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BC9EF7B91DF19BD30066DF54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC9EF7A11DF19BD30066DF54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BC9EF7BA1DF19BD30066DF54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC9EF7A41DF19BD30066DF54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BC9EF7BB1DF19BD30066DF54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC9EF7A51DF19BD30066DF54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BC9EF7BC1DF19BD30066DF54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC9EF7A71DF19BD30066DF54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BC9EF7BD1DF19BD30066DF54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC9EF7A81DF19BD30066DF54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BC9EF7BE1DF19BD30066DF54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC9EF7AA1DF19BD30066DF54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>BC9EF7BF1DF19BD30066DF54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BC9EF7AC1DF19BD30066DF54</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>BC9EF7531DF19B500066DF54</string>
+</dict>
+</plist>

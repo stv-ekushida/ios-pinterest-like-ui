@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Photo Detail View Controller-->
+        <scene sceneID="RrK-3e-dCB">
+            <objects>
+                <viewController storyboardIdentifier="PhotoDetailViewController" id="BGo-ta-R9t" customClass="PhotoDetailViewController" customModule="PinterestDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="R2A-bu-MdK"/>
+                        <viewControllerLayoutGuide type="bottom" id="AcQ-ld-JCE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ngC-d2-dyT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lwf-zh-sJD">
+                                <rect key="frame" x="59" y="205" width="256" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="256" id="97z-au-mL9"/>
+                                    <constraint firstAttribute="height" constant="256" id="wto-lR-UGZ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lwf-zh-sJD" firstAttribute="centerY" secondItem="ngC-d2-dyT" secondAttribute="centerY" id="Ojd-Hb-7jB"/>
+                            <constraint firstItem="lwf-zh-sJD" firstAttribute="centerX" secondItem="ngC-d2-dyT" secondAttribute="centerX" id="l1s-wr-fKb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="thumnailImageView" destination="lwf-zh-sJD" id="ejy-H5-hHr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vrp-vl-ldF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-207" y="208"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>photos</key>
+	<array>
+		<dict>
+			<key>caption</key>
+			<string>リス</string>
+			<key>comment</key>
+			<string>リス（栗鼠）は、ネズミ目(齧歯目)リス科に属する動物の総称である。</string>
+			<key>image</key>
+			<string>01</string>
+		</dict>
+		<dict>
+			<key>caption</key>
+			<string>豚</string>
+			<key>comment</key>
+			<string>ブタ（豚、学名：Sus scrofa domesticus（仮名転写：スース・スクローファ・ドメスティクス）、英名：pig）とは、哺乳綱鯨偶蹄目イノシシ科の動物で、イノシシを家畜化したものである。</string>
+			<key>image</key>
+			<string>04</string>
+		</dict>
+		<dict>
+			<key>caption</key>
+			<string>うさぎ</string>
+			<key>comment</key>
+			<string>ウサギ（兎、兔）は、最も広義にはウサギ目、狭義にはウサギ科、さらに狭義にはウサギ亜科もしくはノウサギ亜科 Leporinaeの総称である。</string>
+			<key>image</key>
+			<string>02</string>
+		</dict>
+		<dict>
+			<key>caption</key>
+			<string>レッサーパンダ</string>
+			<key>comment</key>
+			<string>レッサーパンダ（Ailurus fulgens）は、食肉目レッサーパンダ科レッサーパンダ属に分類される食肉類。本種のみでレッサーパンダ属を構成する。別名アカパンダ。</string>
+			<key>image</key>
+			<string>03</string>
+		</dict>
+		<dict>
+			<key>caption</key>
+			<string>パンダ</string>
+			<key>comment</key>
+			<string>パンダ (panda) は、ネコ目（食肉目）内の、あるグループに属する動物の総称。現生種ではジャイアントパンダとレッサーパンダ（レッドパンダ）の2種を含む。両種とも中華人民共和国に生息している動物である。</string>
+			<key>image</key>
+			<string>05</string>
+		</dict>
+		<dict>
+			<key>caption</key>
+			<string>犬</string>
+			<key>comment</key>
+			<string>イヌ（犬、狗、学名：Canis lupus familiaris、ラテン語名：canis、英語名［国際通用名］：dog、domestic dog）は、ネコ目（食肉目）- イヌ科- イヌ属に分類される哺乳類の一種。</string>
+			<key>image</key>
+			<string>06</string>
+		</dict>
+		<dict>
+			<key>caption</key>
+			<string>猫</string>
+			<key>comment</key>
+			<string>ネコ（猫）は、狭義にはネコ目（食肉目）- ネコ亜目- ネコ科- ネコ亜科- ネコ属- ヤマネコ種- イエネコ亜種に分類される小型哺乳類であるイエネコ（家猫、学名：Felis silvestris catus）の通称である。人間によくなつくため、イヌ（犬）と並ぶ代表的なペットとして世界中で広く飼われている。</string>
+			<key>image</key>
+			<string>07</string>
+		</dict>
+		<dict>
+			<key>caption</key>
+			<string>ホワイトタイガー</string>
+			<key>comment</key>
+			<string>トラ（虎、Panthera tigris）は、食肉目ネコ科ヒョウ属に分類される食肉類。</string>
+			<key>image</key>
+			<string>08</string>
+		</dict>
+		<dict>
+			<key>caption</key>
+			<string>カエル</string>
+			<key>comment</key>
+			<string>蛙（かえる、英: Frog）とは、脊椎動物亜門・両生綱・無尾目（カエル目）に分類される動物の総称。古称としてかわず（旧かな表記では「かはづ」）などがある。</string>
+			<key>image</key>
+			<string>09</string>
+		</dict>
+		<dict>
+			<key>caption</key>
+			<string>ペンギン</string>
+			<key>comment</key>
+			<string>ペンギン (英語: penguin [ˈpɛŋgwɪn]) は、鳥類ペンギン目（学名 Sphenisciformes）に属する種の総称である。ペンギン科（学名 Spheniscidae）のみが現生する。
+主に南半球に生息する海鳥であり、飛ぶことができない。
+今では使われることは稀だが、「人鳥（じんちょう）」「企鵝（きが、企は爪先立つの意、鵝はガチョウ）」という和名もある。</string>
+			<key>image</key>
+			<string>10</string>
+		</dict>
+	</array>
+</dict>
+</plist>
