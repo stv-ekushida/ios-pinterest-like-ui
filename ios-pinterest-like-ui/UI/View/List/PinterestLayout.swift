@@ -70,6 +70,7 @@ class PinterestLayout: UICollectionViewLayout {
      1. レイアウトの事前計算を行う
      */
     override func prepare() {
+        super.prepare()
         
         guard cache.isEmpty else{
             return
